@@ -19,7 +19,7 @@ from projeh import views
 import weblog.urls
 import users.urls
 urlpatterns = [
-    url(r'^/&',views.view),
+    url(r'^/$',views.view),
     url(r'^auth/',include(users.urls)),
     url(r'^blog/',include(weblog.urls)),
     url(r'^admin/', admin.site.urls),
