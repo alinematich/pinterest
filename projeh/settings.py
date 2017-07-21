@@ -58,6 +58,7 @@ OPBEAT = {
     'ORGANIZATION_ID': 'd5833052b9c44bc2bedb0ec7efb38f06',
     'APP_ID': 'a1e9f6a304',
     'SECRET_TOKEN': '328455b1e36b508432a63121ed8b6043da89545e',
+    'DEBUG': True,
 }
 
 
