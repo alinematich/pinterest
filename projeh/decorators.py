@@ -5,8 +5,6 @@ from django.contrib.auth import authenticate
 from django.core.handlers.wsgi import WSGIRequest
 from django.http import HttpResponse
 from django.utils.decorators import available_attrs
-from users.models import User
-from weblog.models import Blog, Post, Comment
 
 __author__ = 'ali-user'
 

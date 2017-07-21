@@ -3,8 +3,10 @@
   <component name="DataSourceManagerImpl" format="xml" hash="471179634">
     <data-source source="LOCAL" name="Django default" uuid="f5bfc7a7-fedd-487d-a5fb-ce2f9a73069e">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\ali-user\Desktop\uni\WEB\1\ff\db.sqlite3</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://:db_port_number/db_name</jdbc-url>
+      <user-name>db_user</user-name>
+      <user-password>dfcedfc8dff5dfdfdfd9dfcfdfd8dff5dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
       <libraries />
     </data-source>
   </component>
